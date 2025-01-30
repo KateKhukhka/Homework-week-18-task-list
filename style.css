@@ -18,12 +18,10 @@ input:checked {
   color: lightgrey;
   margin: 20px;
 }
-ul {
-  list-style-type: none;
-  font-size: 18px;
-}
+
 li {
   font-size: 18px;
+  cursor: pointer;
 }
 button {
   padding: 10px 20px;

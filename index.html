@@ -2,26 +2,24 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
     <title>Task List</title>
   </head>
   <body>
     <div class="container">
-<h2>Добавить задачу</h2>
-<form id="taskForm">
-    <input type="text" id="taskInput" placeholder="Введите задачу">
-    <button type="submit" id="addButton">Добавить задачу</button>
-    <div id="errorContainer"></div>
-    <h2 id="taskListName">Список задач</h2>
-    <div id="errorItem"></div>
-    <ul id="taskList"></ul>
-    <div id="noTasks">Задач нет</div>
-    <button id="clearButton" disabled>Очистить список задач</button>
-  </div>
-        <script src="./main.js"></script>
+      <h2>Добавить задачу</h2>
+      <form id="taskForm">
+        <input type="text" id="taskInput" placeholder="Введите задачу" />
+        <button type="submit" id="addButton">Добавить задачу</button>
+        <div id="errorContainer"></div>
+        <h2 id="taskListName">Список задач</h2>
+        <div id="errorItem"></div>
+        <ol id="taskList"></ol>
+        <div id="noTasks">Задач нет</div>
+        <button id="clearButton" disabled>Очистить список задач</button>
+      </form>
+    </div>
+    <script src="./main.js"></script>
   </body>
 </html>
